@@ -8,7 +8,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Ashar Ahmed
 - Joseph Bean
 - Randy Almonte
-- MEMBER04
+- Nasif Chowdhury
 - MEMBER05
 
 
