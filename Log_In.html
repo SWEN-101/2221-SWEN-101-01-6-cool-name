@@ -10,7 +10,7 @@
 	  background-color: #EA9E8D;
 	  color: #1C2826;
 	  padding:16px 16px;
-	  margin: 32px 46px;
+	  margin: 4px 46px;
 	  border: 2px solid #EA9E8D;
 	}
 	textarea{
@@ -57,7 +57,7 @@
 	<body>
 		<h1> 
 			<div style="width: 70%; float:left">
-				<button onclick="window.open('homepage.html','_self');" class="button button1">Homepage </button>
+				<button onclick="window.open('homepagePreLogIn.html','_self');" class="button button1">Homepage </button>
 			</div>
 			<div style="width:30%; float:right">
 				<form action="https://988lifeline.org/?utm_source=google&utm_medium=web&utm_campaign=onebox" target="_blank">
@@ -68,11 +68,18 @@
 				</form>
 			</div>  
 		</h1>
-		<h2 style="font-size:30px"><center> User5424 posted: </center></h2>
+		<h2 style="font-size:30px"><center> Log In </center></h2>
 		<fieldset>
-			<label style="font-size:30px">One word LOVE. I feel this at my college now that I have been more social and made more friends!</label>
+			<label style="font-size:30px">Enter Username and Password</label>
 		</fieldset>
-		<button class="button button2">Save Post</button>
-	
+		<center> 
+			<form action="/action_page.php">
+				<label style="font-size:30px" for="uName">Username:</label><br>
+				<input style="font-size:30px" type="text" id="uName" name="uName" value=""><br>
+				<label style="font-size:30px" for="password">Password:</label><br>
+				<input style="font-size:30px" type="text" id="password" name="password" value=""><br><br>
+			</form> 
+				<button onclick="window.open('homepage.html','_self');" class="button button1"> Log In </button>
+		</center>
 	</body>
 </html>

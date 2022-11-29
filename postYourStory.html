@@ -10,7 +10,7 @@
 	  background-color: #EA9E8D;
 	  color: #1C2826;
 	  padding:16px 16px;
-	  margin: 32px 46px;
+	  margin: 4px 46px;
 	  border: 2px solid #EA9E8D;
 	}
 	textarea{
@@ -68,11 +68,15 @@
 				</form>
 			</div>  
 		</h1>
-		<h2 style="font-size:30px"><center> User5424 posted: </center></h2>
+		<h2 style="font-size:30px"><center> POST YOUR STORY </center></h2>
 		<fieldset>
-			<label style="font-size:30px">One word LOVE. I feel this at my college now that I have been more social and made more friends!</label>
+			<label style="font-size:30px">Enter Your Story.</label>
 		</fieldset>
-		<button class="button button2">Save Post</button>
-	
+		<form action="/action_page.php">
+			<center>
+				<textarea name="message" rows="30" cols="220"></textarea>
+			</center>
+		</form>
+		<button onclick="window.open('homepageSubmitted.html','_self');" class="button button2"> Add New Post </button>
 	</body>
 </html>

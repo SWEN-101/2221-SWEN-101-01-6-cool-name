@@ -8,7 +8,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Joseph Bean
 - Randy Almonte
 - Nasif Chowdhury
-- MEMBER05
+- Hakan Gul
 
 
 ## Prerequisites  
